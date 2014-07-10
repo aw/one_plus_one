@@ -2,6 +2,7 @@ require 'simplecov'
 
 SimpleCov.start do
   add_filter "/test/"
+  add_filter ".bundle"
   minimum_coverage 100
 end
 
